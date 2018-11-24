@@ -1,0 +1,70 @@
+body {
+  font-family: sans-serif;
+  background: url("https://uploads.codesandbox.io/uploads/user/f32acb28-ce64-4402-b826-635a23aaf4ea/oU50-bunny-bg.jpg");
+}
+
+.App h1 {
+  color: #fff;
+  text-shadow: #111 0 0 5px;
+  font-size: 250%;
+  width: 50%;
+  margin: 50px auto;
+  background: #01364e;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+body {
+  font-family: sans-serif;
+  background: url("https://uploads.codesandbox.io/uploads/user/f32acb28-ce64-4402-b826-635a23aaf4ea/oU50-bunny-bg.jpg");
+}
+
+.App h1 {
+  color: #fff;
+  text-shadow: #111 0 0 5px;
+  font-size: 250%;
+  width: 50%;
+  margin: 50px auto;
+  background: #01364e;
+  padding: 30px;
+  border-radius: 25px;
+  text-align: center;
+}
+
+.door > .door-opened > img,
+.door > .door-closed > img {
+  width: 7rem;
+  height: 7rem;
+}
+
+.door {
+  height: 7rem;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.door > .day {
+  background: #01364e;
+  padding: 1rem;
+  flex: 1;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.3rem;
+}
+
+.door > .door-opened,
+.door > .door-closed {
+  flex: 2;
+}
+
+.calendar {
+  padding: 5rem;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-columns: repeat(4, 1fr);
+  grid-row-gap: 1rem;
+  grid-column-gap: 3rem;
+}
